@@ -7,19 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ECC43CDA29EE745400E5045F /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC43CD929EE745400E5045F /* SearchView.swift */; };
+		ECC43CDC29EE7B8100E5045F /* StackView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC43CDB29EE7B8100E5045F /* StackView+Ext.swift */; };
+		ECC43CDF29EEB28B00E5045F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC43CDE29EEB28B00E5045F /* Model.swift */; };
+		ECC43CE129EEB3C000E5045F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC43CE029EEB3C000E5045F /* NetworkService.swift */; };
+		ECC43CE629EECA9400E5045F /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = ECC43CE529EECA9400E5045F /* ProgressHUD */; };
+		ECC43CEC29EFDCF200E5045F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = ECC43CEB29EFDCF200E5045F /* Kingfisher */; };
 		ECFB854029EDA6F600CBA99A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFB853F29EDA6F600CBA99A /* AppDelegate.swift */; };
-		ECFB854429EDA6F600CBA99A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFB854329EDA6F600CBA99A /* ViewController.swift */; };
+		ECFB854429EDA6F600CBA99A /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFB854329EDA6F600CBA99A /* VideoViewController.swift */; };
 		ECFB854929EDA6F700CBA99A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFB854829EDA6F700CBA99A /* Assets.xcassets */; };
 		ECFB854C29EDA6F700CBA99A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFB854A29EDA6F700CBA99A /* LaunchScreen.storyboard */; };
+		ECFB855729EDABE300CBA99A /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFB855629EDABE300CBA99A /* VideoView.swift */; };
+		ECFB855A29EDB7F200CBA99A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = ECFB855929EDB7F200CBA99A /* SnapKit */; };
+		ECFB855C29EDC7FB00CBA99A /* CompositionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFB855B29EDC7FB00CBA99A /* CompositionCell.swift */; };
+		ECFB856029EDEB1900CBA99A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFB855F29EDEB1900CBA99A /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ECC43CD929EE745400E5045F /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		ECC43CDB29EE7B8100E5045F /* StackView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView+Ext.swift"; sourceTree = "<group>"; };
+		ECC43CDE29EEB28B00E5045F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		ECC43CE029EEB3C000E5045F /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		ECFB853C29EDA6F600CBA99A /* VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFB853F29EDA6F600CBA99A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECFB854329EDA6F600CBA99A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECFB854329EDA6F600CBA99A /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		ECFB854829EDA6F700CBA99A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECFB854B29EDA6F700CBA99A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECFB854D29EDA6F700CBA99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFB855629EDABE300CBA99A /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		ECFB855B29EDC7FB00CBA99A /* CompositionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionCell.swift; sourceTree = "<group>"; };
+		ECFB855F29EDEB1900CBA99A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +44,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC43CEC29EFDCF200E5045F /* Kingfisher in Frameworks */,
+				ECFB855A29EDB7F200CBA99A /* SnapKit in Frameworks */,
+				ECC43CE629EECA9400E5045F /* ProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ECC43CDD29EE8A9200E5045F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ECC43CDB29EE7B8100E5045F /* StackView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ECC43CE229EEB53D00E5045F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECC43CDE29EEB28B00E5045F /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECC43CE329EEB54700E5045F /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				ECC43CE029EEB3C000E5045F /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		ECC43CE729EFC01200E5045F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ECFB855B29EDC7FB00CBA99A /* CompositionCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		ECC43CE829EFC01900E5045F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECFB855629EDABE300CBA99A /* VideoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECC43CE929EFC02000E5045F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECFB854329EDA6F600CBA99A /* VideoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		ECFB853329EDA6F600CBA99A = {
 			isa = PBXGroup;
 			children = (
@@ -52,13 +120,60 @@
 		ECFB853E29EDA6F600CBA99A /* VideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				ECFB853F29EDA6F600CBA99A /* AppDelegate.swift */,
-				ECFB854329EDA6F600CBA99A /* ViewController.swift */,
-				ECFB854829EDA6F700CBA99A /* Assets.xcassets */,
-				ECFB854A29EDA6F700CBA99A /* LaunchScreen.storyboard */,
+				ECFB855329EDABAB00CBA99A /* App */,
+				ECC43CE229EEB53D00E5045F /* Model */,
+				ECC43CE329EEB54700E5045F /* NetworkService */,
+				ECC43CDD29EE8A9200E5045F /* Extensions */,
+				ECFB855D29EDEAE900CBA99A /* Sources */,
+				ECFB855429EDABBD00CBA99A /* Resources */,
 				ECFB854D29EDA6F700CBA99A /* Info.plist */,
 			);
 			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		ECFB855329EDABAB00CBA99A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ECFB853F29EDA6F600CBA99A /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ECFB855429EDABBD00CBA99A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ECFB854829EDA6F700CBA99A /* Assets.xcassets */,
+				ECFB854A29EDA6F700CBA99A /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ECFB855529EDABC800CBA99A /* VideoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ECC43CE929EFC02000E5045F /* Controllers */,
+				ECC43CE829EFC01900E5045F /* View */,
+				ECC43CE729EFC01200E5045F /* Cell */,
+			);
+			path = VideoViewController;
+			sourceTree = "<group>";
+		};
+		ECFB855D29EDEAE900CBA99A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ECFB855E29EDEAF600CBA99A /* SearchViewController */,
+				ECFB855529EDABC800CBA99A /* VideoViewController */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		ECFB855E29EDEAF600CBA99A /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ECFB855F29EDEB1900CBA99A /* SearchViewController.swift */,
+				ECC43CD929EE745400E5045F /* SearchView.swift */,
+			);
+			path = SearchViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +192,11 @@
 			dependencies = (
 			);
 			name = VideoPlayer;
+			packageProductDependencies = (
+				ECFB855929EDB7F200CBA99A /* SnapKit */,
+				ECC43CE529EECA9400E5045F /* ProgressHUD */,
+				ECC43CEB29EFDCF200E5045F /* Kingfisher */,
+			);
 			productName = VideoPlayer;
 			productReference = ECFB853C29EDA6F600CBA99A /* VideoPlayer.app */;
 			productType = "com.apple.product-type.application";
@@ -105,6 +225,11 @@
 				Base,
 			);
 			mainGroup = ECFB853329EDA6F600CBA99A;
+			packageReferences = (
+				ECFB855829EDB7F200CBA99A /* XCRemoteSwiftPackageReference "SnapKit" */,
+				ECC43CE429EECA9400E5045F /* XCRemoteSwiftPackageReference "ProgressHUD" */,
+				ECC43CEA29EFDCF200E5045F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = ECFB853D29EDA6F600CBA99A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -131,8 +256,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECFB854429EDA6F600CBA99A /* ViewController.swift in Sources */,
+				ECFB856029EDEB1900CBA99A /* SearchViewController.swift in Sources */,
+				ECFB855C29EDC7FB00CBA99A /* CompositionCell.swift in Sources */,
+				ECFB854429EDA6F600CBA99A /* VideoViewController.swift in Sources */,
+				ECC43CDA29EE745400E5045F /* SearchView.swift in Sources */,
+				ECC43CE129EEB3C000E5045F /* NetworkService.swift in Sources */,
+				ECC43CDC29EE7B8100E5045F /* StackView+Ext.swift in Sources */,
+				ECFB855729EDABE300CBA99A /* VideoView.swift in Sources */,
 				ECFB854029EDA6F600CBA99A /* AppDelegate.swift in Sources */,
+				ECC43CDF29EEB28B00E5045F /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +476,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ECC43CE429EECA9400E5045F /* XCRemoteSwiftPackageReference "ProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/relatedcode/ProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.0;
+			};
+		};
+		ECC43CEA29EFDCF200E5045F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher?ysclid=leqy9ts8jv620236141";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		ECFB855829EDB7F200CBA99A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ECC43CE529EECA9400E5045F /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECC43CE429EECA9400E5045F /* XCRemoteSwiftPackageReference "ProgressHUD" */;
+			productName = ProgressHUD;
+		};
+		ECC43CEB29EFDCF200E5045F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECC43CEA29EFDCF200E5045F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		ECFB855929EDB7F200CBA99A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECFB855829EDB7F200CBA99A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ECFB853429EDA6F600CBA99A /* Project object */;
 }
