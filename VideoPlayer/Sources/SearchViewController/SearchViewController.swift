@@ -40,17 +40,18 @@ class SearchViewController: UIViewController {
     }
 
     private func search() {
-           ProgressHUD.show("Search...", icon: .privacy)
-        guard let category = customView.searchTextField.text?.replacingOccurrences(of: " ", with: "") else { return }
-
-        Task {
-               await manager.findVideos(topic: category)
-           }
 
         if customView.searchTextField.text == "" {
-            print("FAFAFAF")
+            showAlert(title: "Введите данные", message: "")
+        } else {
+            ProgressHUD.show("Search...", icon: .privacy)
+            guard let category = customView.searchTextField.text?.replacingOccurrences(of: " ", with: "") else { return }
+
+            Task {
+                await manager.findVideos(topic: category)
+            }
         }
-       }
+    }
 
     func delegateCollectionView() {
         manager.delegate = self
